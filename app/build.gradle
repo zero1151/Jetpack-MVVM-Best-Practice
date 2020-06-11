@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.kunminx.puremusic"
-        minSdkVersion 23
-        targetSdkVersion 29
+        minSdkVersion 21
+        targetSdkVersion 28
         versionCode 20206
         versionName "2.2.6"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
